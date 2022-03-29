@@ -1,0 +1,37 @@
+body {
+  background-image: url("http://d3ugyf2ht6aenh.cloudfront.net/stores/183/287/products/ena631-8351b696fdfd4276fd15920814350691-640-0.jpg") ;
+  border-image:stretch;
+  padding: 90px;
+  display: flex;
+  height: -webkit-fill-available;
+}
+
+img {
+  display: flex;
+  height: 600px;
+  width: auto;
+  margin: 0 auto;
+  align-self: center;
+  border-radius: 75px;
+}
+
+
+
+
+* {
+  -webkit-transition: all .15s;
+  transition: all .15s;
+  outline: none;
+}
+
+.bubble {
+  background-color: rgba(212, 20, 20, 0.979);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: fixed;
+  z-index: -1;
+  bottom: 0;
+  display: block;
+  opacity: 0;
+}
